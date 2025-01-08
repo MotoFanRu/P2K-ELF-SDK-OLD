@@ -65,6 +65,17 @@ typedef enum
     
 } MIME_TYPE_T;
 
+enum
+{
+	WHOLE_DISPLAY_AREA,
+	NORMAL_DISPLAY_AREA,
+	COMMON_DISPLAY_AREA,
+	SOFTKEY_AREA,
+	STATUS_LINE_AREA,
+	TITLE_BAR_AREA
+};
+typedef UINT32 WORKING_AREA_T;
+
 typedef struct
 {
    UINT8 *buf;     // буфер для рисования. Должен быть NULL
