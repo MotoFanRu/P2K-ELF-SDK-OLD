@@ -17,8 +17,12 @@ Unpack archive and copy all files to `C:\MCORE_EM1` directory, add `C:\MCORE_EM1
 
 ```sh
 cd /c/
-git clone https://github.com/MotoFanRu/ELFKIT_EM1_Windows.git MCORE_EM1 --depth=1 -b master
-git clone git@github.com:MotoFanRu/ELFKIT_EM1_Windows.git MCORE_EM1 --depth=1 -b master
+
+git clone https://github.com/MotoFanRu/P2K-ELF-SDK-OLD.git --depth=1 -b master
+git clone git@github.com:MotoFanRu/P2K-ELF-SDK-OLD.git --depth=1 -b master
+
+cd P2K-ELF-SDK-OLD
+mv ELFKIT_EM1_Windows /c/MCORE_EM1
 ```
 
 ## Usage SDK

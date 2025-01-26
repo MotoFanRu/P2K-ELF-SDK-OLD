@@ -22,8 +22,12 @@ Unpack archive and copy all files to `C:\ARM` directory, add `C:\ARM` to `%PATH%
 
 ```sh
 cd /c/
-git clone https://github.com/MotoFanRu/ELFKIT_EP1_Windows.git ARM --depth=1 -b master
-git clone git@github.com:MotoFanRu/ELFKIT_EP1_Windows.git ARM --depth=1 -b master
+
+git clone https://github.com/MotoFanRu/P2K-ELF-SDK-OLD.git --depth=1 -b master
+git clone git@github.com:MotoFanRu/P2K-ELF-SDK-OLD.git --depth=1 -b master
+
+cd P2K-ELF-SDK-OLD
+mv ELFKIT_EP1_Windows /c/ARM
 ```
 
 ## Usage SDK

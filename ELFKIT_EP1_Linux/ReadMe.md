@@ -25,8 +25,12 @@ echo 'PATH=$PATH:/opt/arm/bin' >> ~/.bashrc
 
 ```sh
 cd /opt
-git clone https://github.com/MotoFanRu/ELFKIT_EP1_Linux.git arm --depth=1 -b master
-git clone git@github.com:MotoFanRu/ELFKIT_EP1_Linux.git arm --depth=1 -b master
+
+git clone https://github.com/MotoFanRu/P2K-ELF-SDK-OLD.git --depth=1 -b master
+git clone git@github.com:MotoFanRu/P2K-ELF-SDK-OLD.git --depth=1 -b master
+
+cd P2K-ELF-SDK-OLD
+mv ELFKIT_EP1_Linux /opt/arm
 ```
 
 ## Usage SDK

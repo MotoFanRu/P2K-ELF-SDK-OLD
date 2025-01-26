@@ -18,8 +18,12 @@ Unpack archive and copy all files to `C:\devkitARM` directory, add  `C:\devkitAR
 
 ```sh
 cd /c/
-git clone https://github.com/MotoFanRu/ELFKIT_EP2_Windows.git devkitARM --depth=1 -b master
-git clone git@github.com:MotoFanRu/ELFKIT_EP2_Windows.git devkitARM --depth=1 -b master
+
+git clone https://github.com/MotoFanRu/P2K-ELF-SDK-OLD.git --depth=1 -b master
+git clone git@github.com:MotoFanRu/P2K-ELF-SDK-OLD.git --depth=1 -b master
+
+cd P2K-ELF-SDK-OLD
+mv ELFKIT_EP2_Windows /c/devkitARM
 ```
 
 ## Usage SDK
